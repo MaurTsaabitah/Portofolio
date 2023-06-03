@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.nav-item{
+    padding: 5px 1em;
+    width: 70px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    background: lightblue;
+    margin-top: -3px;
+}
+
+.nav-bar:last-child{
+    border-right: none;
+}
+
+.logo{
+    height: 2em;
+}
+
+.hero{
+    height: 500px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.Headquarters-image{
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 1em;
+}
+
+.Headquarters-image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
